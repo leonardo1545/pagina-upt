@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vinculacion y difucion</title>
+        <link rel="shortcut icon" href="data:image/png;base64,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">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-4 text-primary text-uppercase">UPT</h1>
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row bg-white border-bottom d-none d-lg-flex">
+                    <div class="col-lg-7 text-left">
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                            <i class="fa fa-envelope text-primary mr-2"></i>
+                            <small>uptecamac@gmail.com</small>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                            <i class="fa fa-phone-alt text-primary mr-2"></i>
+                            <small>55-59-34-77-53</small>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 display-4 text-primary text-uppercase">UPT</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded" src="https://th.bing.com/th/id/OIP.dKIYOFbJU5UakOXK9Oh9ZQHaHa?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="col-lg-7 mt-4 mt-lg-0">
+                    <h2 class="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block" style="width: 350px; margin-left: -205px;">16 años de experiencia</h2>
+                    <h6 class="text-uppercase">Sobre nosotros</h6>
+                    <h1 class="mb-4">Extensión y Vinculación</h1>
+                    <p>La Universidad Politécnica de Tecámac, con el objetivo de incrementar las oportunidades de desarrollo y formación personal y profesional de sus estudiantes, promueve herramientas de vinculación con el sector productivo, así como mecanismos para fortalecer en las y los estudiantes los conocimientos y habilidades necesarias para el impulso de nuevos proyectos que le permitirán generar alternativas laborales a través de los siguientes servicios:</p>
+                    <a href="" class="btn btn-primary mt-2">Conoce mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="bg-appointment rounded">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-lg-6 py-5">
+                        <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
+                            <h1 class="text-center text-white mb-4">Registrate para tu cita extracurricular</h1>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0 p-4" placeholder="Nombre" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control border-0 p-4" placeholder="Correo electronico personal" required="required" />
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <div class="date" id="date" data-target-input="nearest">
+                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Selecciona una fecha" data-target="#date" data-toggle="datetimepicker"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <div class="time" id="time" data-target-input="nearest">
+                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Selecciona una hora" data-target="#time" data-toggle="datetimepicker"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select border-0 px-4" style="height: 47px;">
+                                        <option selected>Selecciona una carrera de tu interes</option>
+                                        <option value="1">Ecologia</option>
+                                        <option value="2">Folklorica</option>
+                                        <option value="3">Literatura</option>
+                                        <option value="4">Actividades extracurriculares</option>
+                                        <option value="5">Gym</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary btn-block border-0 py-3" type="submit">Obten una cita</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/admision .png" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="feature-text bg-white rounded p-lg-5">
+                        <h6 class="text-uppercase">Nuestras caracteristicas</h6>
+                        <h1 class="mb-4">Porque nos debes de elegir</h1>
+                        <div class="d-flex mb-4">
+                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                <h5 class="text-secondary m-0">01</h5>
+                            </div>
+                            <div class="ml-4">
+                                <h5>Unas de las mejores instalaciones</h5>
+                                <p class="m-0">"Descubre un entorno académico enriquecedor donde nuestras instalaciones de vanguardia fomentan la excelencia académica y el crecimiento personal."</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                <h5 class="text-secondary m-0">02</h5>
+                            </div>
+                            <div class="ml-4">
+                                <h5>Ofrecemos talleres para ti</h5>
+                                <p class="m-0">"Explora nuestra amplia gama de talleres diseñados para inspirar la creatividad, fomentar el aprendizaje práctico y prepararte para enfrentar los desafíos del mundo real."</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                <h5 class="text-secondary m-0">03</h5>
+                            </div>
+                            <div class="ml-4">
+                                <h5>Ofrecemos carreras completas</h5>
+                                <p class="m-0">"Descubre tu camino hacia el éxito con nuestras carreras de vanguardia que combinan conocimientos actualizados, oportunidades de investigación y una sólida red de apoyo para impulsar tu futuro profesional."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+   <!-- Footer Start -->
+   <div class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+    <div class="row mt-5">
+        <div class="col-lg-4">
+            <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+                <div class="ml-3">
+                    <h5 class="text-white">Nuestra direccion</h5>
+                    <p class="m-0">Prolongación 5 de Mayo #10
+                        Colonia Felipe Villanueva
+                        Centro Tecámac, Estado de México
+                        Código Postal 55740</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                <i class="fa fa-2x fa-envelope-open text-primary"></i>
+                <div class="ml-3">
+                    <h5 class="text-white">Correo electronico</h5>
+                    <p class="m-0">uptecamac@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                <i class="fa fa-2x fa-phone-alt text-primary"></i>
+                <div class="ml-3">
+                    <h5 class="text-white">Telefono</h5>
+                    <p class="m-0">55-59-34-77-53</p>
+                </div>
+            </div>
+        </div>
+   
+
+
+
+</body>
+
+</html>
